@@ -1,0 +1,10 @@
+import pandas as pd 
+marks=pd.Series([90,70,78,89,67])
+print('first 3 values of marks')
+print(marks[0:3])
+print('last 2 values')
+print(marks[-2:])
+print('indexes')
+print(marks.index)
+print('values')
+print(marks.values)
