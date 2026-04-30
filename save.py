@@ -6,6 +6,6 @@ data={
 }
 df=pd.DataFrame(data)
 print(df)
-# df.to_csv('new/CSE-C details.csv',index=False)
+df.to_csv('new/CSE-C details.csv',index=False)
 # df.to_json('new/CSE-Cdetails.json',index=True)
-df.to_excel('new/CSE-Cdetails.xlsx',index=False)
+# df.to_excel('new/CSE-Cdetails.xlsx',index=False)
