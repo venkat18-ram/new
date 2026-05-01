@@ -21,3 +21,5 @@ INSERT INTO CSEC VALUES(101,'venkat','C',20,92);
 
 -- UPDATE s_marks=99 FROM student WHERE s_id=104;
 
+
+CREATE VIEW student_view AS SELECT s_id,s_name,s_marks FROM student;
