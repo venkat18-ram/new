@@ -28,22 +28,3 @@ CREATE VIEW student_view AS SELECT s_id,s_name,s_marks FROM student;
 
 
 
-
-CREATE TABLE employee(
-    e_id INT PRIMARY KEY,
-    e_name VARCHAR(30),
-    e_salary INT,
-    d_id INT
-);
-
-CREATE TABLE department(
-    d_id INT PRIMARY KEY,
-    d_name VARCHAR(30),
-    FOREIGN KEY (d_id) REFERENCES employee(e_id)
-);
-
-INSERT INTO employee VALUES(204,'jahash',90000,3);
-
-INSERT INTO department VALUES(3,'HR');
-
-DROP TABLE employee;

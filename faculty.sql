@@ -13,3 +13,8 @@ INSERT INTO faculty VALUES(513,'purushotham','male','proffessor',60000,'cse',6,4
 UPDATE faculty SET email='jplatha@gmail.com' WHERE faculty_id=509;
 
 ALTER TABLE faculty ADD COLUMN email VARCHAR(40);
+
+
+SELECT * FROM faculty;
+
+SELECT * FROM student;
