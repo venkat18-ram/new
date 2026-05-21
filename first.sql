@@ -28,3 +28,15 @@ CREATE VIEW student_view AS SELECT s_id,s_name,s_marks FROM student;
 
 
 
+
+
+BACKUP DATABASE [kvsrit]
+TO DISK = 'E:\databases\kvsrit.bak';
+
+
+CREATE TABLE CSEcdetails(
+    reg_id INT PRIMARY KEY,
+    name VARCHAR(30),
+    age INT);
+
+    DROP TABLE CSEcdetails;
